@@ -1,9 +1,9 @@
-fastapi==0.115.12
-uvicorn[standard]==0.34.2
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
 pydantic-settings==2.9.1
-python-multipart==0.0.20
+python-multipart==0.0.34
 langgraph==1.2.24
-openai-agents==0.0.17
+openai-agents==0.26.0
 google-cloud-firestore==2.20.2
 pypdf==5.5.0
 python-docx==1.1.2
