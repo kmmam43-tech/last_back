@@ -8,5 +8,5 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
-OpenAI와 Firestore 인증 정보는 환경 변수로 주입하며 저장소에 커밋하지 않습니다.
+`App/Api/.env.example`을 `.env`로 복사해 OpenAI, Firestore 및 CORS 값을 설정합니다. 인증 정보는 저장소에 커밋하지 않습니다.
 
